@@ -4,14 +4,14 @@ A simple real-time chat application using Python's `socket` and `threading` libr
 
 ---
 
-## 🚀 Features
+## Features
 - **Multi-client Support**: Allows multiple users to join the chat simultaneously.
 - **Real-time Broadcasting**: Every message sent by a client is broadcasted to all other active connections.
 - **Concurrent Handling**: Uses `threading` to manage each client connection independently without blocking the server.
 - **Safe Disconnection**: Includes an `exit` command to safely close client-server connections.
 - **Dynamic IP Binding**: The server automatically detects and binds to the local host's IP address.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language**: Python 3.x
 - **Libraries**: 
   - `socket`: For low-level network interface.
@@ -19,7 +19,7 @@ A simple real-time chat application using Python's `socket` and `threading` libr
 
 ---
 
-## 📖 How to Run
+## How to Run
 
 ### 1. Prerequisites
 - Ensure you have **Python 3** installed on your machine.
